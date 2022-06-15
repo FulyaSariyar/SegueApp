@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameText: UITextField!
     @IBOutlet weak var myLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +17,7 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonNextClicked(_ sender: Any) {
+    }
 }
 
