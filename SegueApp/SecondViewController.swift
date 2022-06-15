@@ -11,10 +11,13 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var myLabelSecond: UILabel!
+    var myName = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nameLabel.text = myName
     }
     
 
